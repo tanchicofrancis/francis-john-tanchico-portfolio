@@ -1,29 +1,17 @@
 body {
-  height: 100vh;
-  margin: 0;
-  overflow: hidden; 
-  animation: rainbow-background 5s infinite;
+ background-color: #333;
+ height: 100%;
+ overflow-x: hidden;
 }
-@keyframes rainbow-background {
-  0% { background-color: #ff0000; }
-  8.333% { background-color: #ff8000; }
-  16.667% { background-color: #ffff00; }
-  25.000% { background-color: #80ff00; }
-  33.333% { background-color: #00ff00; }
-  41.667% { background-color: #00ff80; }
-  50.000% { background-color: #00ffff; }
-  58.333% { background-color: #0080ff; }
-  66.667% { background-color: #0000ff; }
-  75.000% { background-color: #8000ff; }
-  83.333% { background-color: #ff00ff; }
-  91.667% { background-color: #ff0080; }
-  100.00% { background-color: #ff0000; }
- }
- #RainbowBackground {
-  animation: rainbow-background 5s infinite;
- }
+html{
+  height: 100%;
+}
+p {
+  font-size: larger;
+}
+
 .about{
-  color: #AACCFF;
+  color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
@@ -33,8 +21,8 @@ header {
   display: flex;
   align-items: center;
 }
-h2{
-  color: #AACCFF;
+h2, p{
+  color: #fff;
 }
 h1{
   text-align: center;
@@ -43,7 +31,8 @@ h1{
   margin: 0 auto;
   position: absolute;
   padding: 0;
-  color: #AACCFF;
+  color: #fff;
+  size: 500;
 }
 h1.outline-text  {
   font-size: 36px;
@@ -158,5 +147,44 @@ ins {
 
 .html {width: 40%; background-color: #04AA6D;} /* Green */
 .css {width: 20%; background-color: #2196F3;} /* Blue */
-.js {width: 10%; background-color: #f44336;} /* Red */
+.java {width: 10%; background-color: #f44336;} /* Red */
 
+.image {
+  text-align: center;
+  
+}
+
+.proj {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.projh2 {
+  text-align: center;
+}
+
+/* .scroll-bar {
+  height: 100%;
+  width:100%;
+  
+  font-family: 'GestaRegular', Arial, Helvetica, sans-serif;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+border: 1px solid #bdffe6;
+border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #bdffe6;  
+border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #a2fcdb;
+} */
