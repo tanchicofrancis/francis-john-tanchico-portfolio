@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Brave",
+            "runtimeExecutable": "C:\\Users\\Francis John\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+            "file": "c:\\Users\\Francis John\\Desktop\\MY PORTFOLIO\\francis-john-tanchico-portfolio\\index.html"
+        }
+    ]
+}
